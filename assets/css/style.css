@@ -1,0 +1,31 @@
+@import "./fonts.css";
+@import "../../components/header/header.css";
+@import "../../components/footer/footer.css";
+@import "../../components/banner/banner.css";
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #121213;
+  font-family: 'Mouth Breather';
+
+}
+
+.container {
+  max-width: 1160px;
+  padding: 0 20px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: unset
+}

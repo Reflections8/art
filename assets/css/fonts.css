@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Mouth Breather';
+  src: url('../fonts/Mouth Breather (Banner).ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Street Soul';
+  src: url('../fonts/Street Soul (Logo).ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Encoding -->
+    <meta charset="UTF-8" />
+
+    <!-- Language -->
+    <meta http-equiv="content-language" content="ru" />
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title/Description -->
+    <title>Art</title>
+
+    <!-- normalize.css -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+
+    <!-- Global CSS file -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- components/header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__inner-logo">
+            <span>12</span>
+            <span>обеъян</span>
+          </div>
+          <nav class="header__inner-nav">
+            <a class="header__inner-nav-a" href="#">Живпопись</a>
+            <a class="header__inner-nav-a" href="#">
+              <span>Запишись</span>
+              <span>сейчас</span>
+            </a>
+            <a class="header__inner-nav-a" href="#">
+              <span>Индивидуальные</span>
+              <span>заказы</span>
+            </a>
+            <a class="header__inner-nav-a" href="#">
+              <span>Мастер</span>
+              <span>классы</span>
+            </a>
+            <a class="header__inner-nav-a" href="#about-us">О нас</a>
+            <a class="header__inner-nav-a" href="#">Отзывы</a>
+            <a class="header__inner-nav-a" href="#">Портфолио</a>
+          </nav>
+          <div class="header__inner-contacts">
+            <a class="header__inner-contacts-a">
+              <img
+                src="assets/images/whatsapp.svg"
+                alt="wa"
+                class="header__inner-contacts-a-img"
+              />
+            </a>
+            <a class="header__inner-contacts-a">
+              <img
+                src="assets/images/telegram.svg"
+                alt="tg"
+                class="header__inner-contacts-a-img"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- banner -->
+      <div class="flip-card flip-card--about-us" id="#about-us">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="assets/images/about-us.png"
+              alt="about-us"
+              class="flip-card-front-img"
+            />
+          </div>
+          <div class="flip-card-back">
+            <div class="container">
+              <div class="flip-card-back-content">
+                <h1>Какой-то заголовок</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                  obcaecati accusantium minus minima optio, ut impedit non
+                  labore odit, veniam quas molestiae placeat exercitationem
+                  ipsam eos quia fugiat, incidunt temporibus. Error placeat
+                  sequi quidem dolorem amet expedita quae similique. Ipsum non
+                  asperiores enim laudantium in, magni explicabo obcaecati ab
+                  quae at expedita nihil amet fugit qui quos impedit tempore
+                  deleniti.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip">
+        <div
+          class="front"
+          style="background-image: url('assets/images/about-us.png')"
+        >
+          <!-- <h1 class="text-shadow">О нас</hi> -->
+        </div>
+        <div class="back">
+          <div class="container">
+            <div class="back-content">
+              <h1>Какой-то заголовок</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                obcaecati accusantium minus minima optio, ut impedit non labore
+                odit, veniam quas molestiae placeat exercitationem ipsam eos
+                quia fugiat, incidunt temporibus. Error placeat sequi quidem
+                dolorem amet expedita quae similique. Ipsum non asperiores enim
+                laudantium in, magni explicabo obcaecati ab quae at expedita
+                nihil amet fugit qui quos impedit tempore deleniti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner"></div>
+      </div>
+    </footer>
+
+    <!-- Global script -->
+    <script src="assets/js/index.js"></script>
+
+    <!-- Component scripts -->
+    <script src="components/header/header.js"></script>
+    <script src="components/banner/banner.js"></script>
+    <script src="components/footer/footer.js"></script>
+  </body>
+</html>

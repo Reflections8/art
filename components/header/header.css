@@ -1,0 +1,65 @@
+.header {
+    position: sticky;
+    top: 0;
+    height: 100px;
+    z-index: 1000;
+    color: white;
+    background: linear-gradient(to right, #301131, #1F6563);
+}
+
+.header__inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.header__inner-logo {
+    font-family: 'Street Soul';
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    line-height: 75%;
+    align-items: flex-end;
+}
+
+.header__inner-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header__inner-nav-a {
+    transition: color .2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.header__inner-nav-a:hover {
+    color: gray;
+}
+
+.header__inner-contacts {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem
+}
+
+.header__inner-contacts-a {
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    width: 32px;
+}
+
+.header__inner-contacts-a:hover {
+    transform: scale(1.2);
+}
+
+.header__inner-contacts-a-img {
+    width: 100%;
+    height: 100%;
+}

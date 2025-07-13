@@ -29,24 +29,66 @@
             <span>обеъян</span>
           </div>
           <nav class="header__inner-nav">
-            <a class="header__inner-nav-a" href="#">Живпопись</a>
-            <a class="header__inner-nav-a" href="#">
-              <span>Запишись</span>
-              <span>сейчас</span>
-            </a>
-            <a class="header__inner-nav-a" href="#">
-              <span>Индивидуальные</span>
-              <span>заказы</span>
-            </a>
-            <a class="header__inner-nav-a" href="#">
+            <a class="header__inner-nav-a" href="#painting">Живпопись</a>
+            <a class="header__inner-nav-a" href="#master-classes">
               <span>Мастер</span>
               <span>классы</span>
             </a>
+            <a class="header__inner-nav-a" href="#individual-orders">
+              <span>Индивидуальные</span>
+              <span>заказы</span>
+            </a>
+            <a class="header__inner-nav-a" href="#book-now">
+              <span>Запишись</span>
+              <span>сейчас</span>
+            </a>
             <a class="header__inner-nav-a" href="#about-us">О нас</a>
-            <a class="header__inner-nav-a" href="#">Отзывы</a>
-            <a class="header__inner-nav-a" href="#">Портфолио</a>
+            <a class="header__inner-nav-a" href="#portfolio">Портфолио</a>
+            <a class="header__inner-nav-a" href="#reviews">Отзывы</a>
           </nav>
           <div class="header__inner-contacts">
+            <a class="header__inner-contacts-a">
+              <img
+                src="assets/images/whatsapp.svg"
+                alt="wa"
+                class="header__inner-contacts-a-img"
+              />
+            </a>
+            <a class="header__inner-contacts-a">
+              <img
+                src="assets/images/telegram.svg"
+                alt="tg"
+                class="header__inner-contacts-a-img"
+              />
+            </a>
+          </div>
+
+          <div class="header__inner-burger">
+            <span class="header__inner-burger-line"></span>
+            <span class="header__inner-burger-line"></span>
+            <span class="header__inner-burger-line"></span>
+          </div>
+        </div>
+
+        <div class="header__overlay">
+          <a class="header__inner-nav-a" href="#painting">Живпопись</a>
+          <a class="header__inner-nav-a" href="#master-classes">
+            <span>Мастер</span>
+            <span>классы</span>
+          </a>
+          <a class="header__inner-nav-a" href="#individual-orders">
+            <span>Индивидуальные</span>
+            <span>заказы</span>
+          </a>
+          <a class="header__inner-nav-a" href="#book-now">
+            <span>Запишись</span>
+            <span>сейчас</span>
+          </a>
+          <a class="header__inner-nav-a" href="#about-us">О нас</a>
+          <a class="header__inner-nav-a" href="#portfolio">Портфолио</a>
+          <a class="header__inner-nav-a" href="#reviews">Отзывы</a>
+
+          <div class="header__overlay-bottom">
             <a class="header__inner-contacts-a">
               <img
                 src="assets/images/whatsapp.svg"
@@ -68,7 +110,7 @@
 
     <main>
       <!-- banner -->
-      <div class="flip-card flip-card--about-us" id="#about-us">
+      <!-- <div class="flip-card flip-card--about-us" id="#about-us">
         <div class="flip-card-inner">
           <div class="flip-card-front">
             <img
@@ -80,7 +122,7 @@
           <div class="flip-card-back">
             <div class="container">
               <div class="flip-card-back-content">
-                <h1>Какой-то заголовок</h1>
+                <h2>Какой-то заголовок</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
                   obcaecati accusantium minus minima optio, ut impedit non
@@ -95,19 +137,190 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="flip">
+      <!-- ЖИВОПИСЬ -->
+      <div class="flip" id="painting">
         <div
           class="front"
-          style="background-image: url('assets/images/about-us.png')"
+          style="background-image: url('assets/images/painting.png')"
         >
-          <!-- <h1 class="text-shadow">О нас</hi> -->
+          <div class="front-content">
+            <h2 class="text-shadow">Живопись</h2>
+          </div>
         </div>
         <div class="back">
           <div class="container">
             <div class="back-content">
-              <h1>Какой-то заголовок</h1>
+              <h2>Какой-то заголовок</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                obcaecati accusantium minus minima optio, ut impedit non labore
+                odit, veniam quas molestiae placeat exercitationem ipsam eos
+                quia fugiat, incidunt temporibus. Error placeat sequi quidem
+                dolorem amet expedita quae similique. Ipsum non asperiores enim
+                laudantium in, magni explicabo obcaecati ab quae at expedita
+                nihil amet fugit qui quos impedit tempore deleniti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Мастер классы -->
+      <div class="flip" id="master-classes">
+        <div
+          class="front"
+          style="background-image: url('assets/images/master-classes.png')"
+        >
+          <div class="front-content">
+            <h2 class="text-shadow">Мастер-классы</h2>
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            <div class="back-content">
+              <h2>Какой-то заголовок</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                obcaecati accusantium minus minima optio, ut impedit non labore
+                odit, veniam quas molestiae placeat exercitationem ipsam eos
+                quia fugiat, incidunt temporibus. Error placeat sequi quidem
+                dolorem amet expedita quae similique. Ipsum non asperiores enim
+                laudantium in, magni explicabo obcaecati ab quae at expedita
+                nihil amet fugit qui quos impedit tempore deleniti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Индивидуальные заказы -->
+      <div class="flip" id="individual-orders">
+        <div
+          class="front"
+          style="background-image: url('assets/images/individual-orders.png')"
+        >
+          <div class="front-content">
+            <h2 class="text-shadow">Индивидуальные заказы</h2>
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            <div class="back-content">
+              <h2>Какой-то заголовок</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                obcaecati accusantium minus minima optio, ut impedit non labore
+                odit, veniam quas molestiae placeat exercitationem ipsam eos
+                quia fugiat, incidunt temporibus. Error placeat sequi quidem
+                dolorem amet expedita quae similique. Ipsum non asperiores enim
+                laudantium in, magni explicabo obcaecati ab quae at expedita
+                nihil amet fugit qui quos impedit tempore deleniti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Запишитесь сейчас -->
+      <div class="flip" id="book-now">
+        <div
+          class="front"
+          style="background-image: url('assets/images/book-now.png')"
+        >
+          <div class="front-content">
+            <h2 class="text-shadow">Запишитесь сейчас</h2>
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            <div class="back-content">
+              <h2>Какой-то заголовок</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                obcaecati accusantium minus minima optio, ut impedit non labore
+                odit, veniam quas molestiae placeat exercitationem ipsam eos
+                quia fugiat, incidunt temporibus. Error placeat sequi quidem
+                dolorem amet expedita quae similique. Ipsum non asperiores enim
+                laudantium in, magni explicabo obcaecati ab quae at expedita
+                nihil amet fugit qui quos impedit tempore deleniti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- О НАС -->
+      <div class="flip" id="about-us">
+        <div
+          class="front"
+          style="background-image: url('assets/images/about-us.png')"
+        >
+          <div class="front-content">
+            <h2 class="text-shadow">О нас</h2>
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            <div class="back-content">
+              <h2>Какой-то заголовок</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                obcaecati accusantium minus minima optio, ut impedit non labore
+                odit, veniam quas molestiae placeat exercitationem ipsam eos
+                quia fugiat, incidunt temporibus. Error placeat sequi quidem
+                dolorem amet expedita quae similique. Ipsum non asperiores enim
+                laudantium in, magni explicabo obcaecati ab quae at expedita
+                nihil amet fugit qui quos impedit tempore deleniti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Портфолио -->
+      <div class="flip" id="portfolio">
+        <div
+          class="front"
+          style="background-image: url('assets/images/portfolio.png')"
+        >
+          <div class="front-content">
+            <h2 class="text-shadow">Портфолио</h2>
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            <div class="back-content">
+              <h2>Какой-то заголовок</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                obcaecati accusantium minus minima optio, ut impedit non labore
+                odit, veniam quas molestiae placeat exercitationem ipsam eos
+                quia fugiat, incidunt temporibus. Error placeat sequi quidem
+                dolorem amet expedita quae similique. Ipsum non asperiores enim
+                laudantium in, magni explicabo obcaecati ab quae at expedita
+                nihil amet fugit qui quos impedit tempore deleniti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Отзывы -->
+      <div class="flip" id="reviews">
+        <div
+          class="front"
+          style="background-image: url('assets/images/reviews.png')"
+        >
+          <div class="front-content">
+            <h2 class="text-shadow">Отзывы</h2>
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            <div class="back-content">
+              <h2>Какой-то заголовок</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
                 obcaecati accusantium minus minima optio, ut impedit non labore
@@ -125,7 +338,55 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="footer__inner"></div>
+        <div class="footer__inner">
+          <div class="footer__inner-start">
+            <div class="footer__inner-start-logo">
+              <img
+                src="assets/images/logo.png"
+                alt="logo"
+                class="footer__inner-start-logo-img"
+              />
+              <div class="footer__inner-start-logo-text">
+                <span>12</span>
+                <span>обезъян</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer__inner-end">
+            <div class="footer__inner-end-col">
+              <div class="footer__inner-end-col-title">Контактные телефоны</div>
+              <div class="footer__inner-end-col-body">
+                <a href="tel:88008000000" class="footer__inner-end-col-body-a"
+                  >8 800 800 00 00</a
+                >
+                <a href="tel:88008000000" class="footer__inner-end-col-body-a"
+                  >8 800 800 00 00</a
+                >
+              </div>
+            </div>
+            <div class="footer__inner-end-col">
+              <div class="footer__inner-end-col-title">Мессенджеры</div>
+              <div
+                class="footer__inner-end-col-body footer__inner-end-col-body--msg"
+              >
+                <a class="footer__inner-end-col-body-a">
+                  <img
+                    src="assets/images/whatsapp.svg"
+                    alt="wa"
+                    class="footer__inner-end-col-body-a-img"
+                  />
+                </a>
+                <a class="footer__inner-end-col-body-a">
+                  <img
+                    src="assets/images/telegram.svg"
+                    alt="tg"
+                    class="footer__inner-end-col-body-a-img"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
 

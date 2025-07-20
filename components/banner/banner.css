@@ -151,6 +151,55 @@
     height: 100%;
 }
 
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+}
+
+.portfolio-item {
+    max-width: 500px;
+    object-fit: contain;
+    width: 100%;
+    object-position: top;
+    height: 100%;
+}
+
+.form-button {
+    border: none;
+    outline: none;
+    font-family: 'Mouth Breather', sans-serif;
+    font-size: 24px;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #301131;
+    border-radius: 4px;
+    color: white;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    opacity: 0.5;
+}
+
+.logo-wb {
+    transition: all .2s ease-in-out;
+    max-width: 200px;
+    margin-top: 1rem;
+    text-align: center;
+    object-fit: cover;
+    width: 100%;
+}
+
+.logo-wb-img {
+    max-width: 100%;
+}
+
+.logo-wb:hover {
+    opacity: 0.5;
+}
+
 @media screen and (max-width: 991px) {
     .text-shadow {
         font-size: 50px;
@@ -173,6 +222,38 @@
 
 @media screen and (max-width: 991px) {
     .front--individual-orders {
-        background-image: url('../../assets/images/individual-orders-mobile.jpg') !important;
+        background-image: url('../../assets/images/mobile/individual-orders.jpg') !important;
+    }
+
+    #painting .front {
+        background-image: url('../../assets/images/mobile/painting.png') !important;
+    }
+
+    #cons .front {
+        background-image: url('../../assets/images/mobile/master-classes.png') !important;
+    }
+
+    #portfolio .front {
+        background-image: url('../../assets/images/mobile/portfolio.png') !important;
+    }
+
+    #how-to-order .front {
+        background-image: url('../../assets/images/mobile/book-now.png') !important;
+    }
+
+    #reviews .front {
+        background-image: url('../../assets/images/mobile/reviews.png') !important;
+    }
+
+    #prices .front {
+        background-image: url('../../assets/images/mobile/individual-orders.png') !important;
+    }
+
+    #contacts .front {
+        background-image: url('../../assets/images/mobile/about-us.png') !important;
+    }
+
+    .portfolio-item {
+        object-fit: cover;
     }
 }

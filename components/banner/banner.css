@@ -257,3 +257,8 @@
         object-fit: cover;
     }
 }
+
+.review-img {
+    max-width: 600px;
+    width: 100%;
+}
